@@ -1,7 +1,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/0bd4a598dfee9b700e30/maintainability)](https://codeclimate.com/github/Thorin0ak/rn-eventsource-mercure/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0bd4a598dfee9b700e30/test_coverage)](https://codeclimate.com/github/Thorin0ak/rn-eventsource-mercure/test_coverage)
-
+[![Known Vulnerabilities](https://snyk.io/test/github/Thorin0ak/rn-eventsource-mercure/badge.svg)]((https://snyk.io/test/github/Thorin0ak/rn-eventsource-mercure))
 
 # rn-eventsource-mercure
 
