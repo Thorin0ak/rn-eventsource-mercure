@@ -5,5 +5,16 @@ module.exports = {
     'testPathIgnorePatterns': [
       '/node_modules/',
     ],
-    'testEnvironment': 'node', 
+    'testEnvironment': 'node',
+    'collectCoverage': true,
+    'coverageReporters': ['lcov'],
+    'coverageDirectory': 'test-coverage',
+    'coverageThreshold': {
+        'global': {
+            'branches': 0,
+            'functions': 0,
+            'lines': 0,
+            'statements': 0
+        }
+    }
 };
