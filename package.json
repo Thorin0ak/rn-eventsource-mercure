@@ -9,9 +9,10 @@
   "main": "lib/EventSource.js",
   "scripts": {
     "build": "babel src/ -d lib/ --ignore '**/__tests__'",
-    "prepare": "npm run build",
+    "prepare": "npm run snyk-protect && npm run build",
     "test": "jest src",
-    "flow": "flow"
+    "flow": "flow",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Adam Chelminski and Philippe Camus",
   "license": "MIT",
@@ -31,6 +32,8 @@
     "react-native": "^0.67.3"
   },
   "dependencies": {
-    "event-target-shim": "^5.0.1"
-  }
+    "event-target-shim": "^5.0.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
