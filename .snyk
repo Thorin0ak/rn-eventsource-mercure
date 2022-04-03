@@ -8,3 +8,5 @@ patch:
         patched: '2022-03-30T09:40:01.690Z'
     - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-config > metro > metro-transform-worker > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
         patched: '2022-04-01T09:46:13.055Z'
+    - react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-04-03T07:00:43.280Z'
