@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "event-target-shim": "^5.0.1",
-    "@snyk/protect": "1.891.0"
+    "@snyk/protect": "1.898.0"
   },
   "snyk": true
 }
